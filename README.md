@@ -1,7 +1,7 @@
-<h1 align="center">MINE PROJETO - Garage Games BR 🎮</h1>
+<h1 align="center">PROJETO - Melhor Amigo 🐱</h1>
 
 ## :memo: Descrição:
-Desenvolvi uma página web estilizada utilizando HTML, CSS e JavaScript para um pet shop fictício chamado "Melhor Amigo"
+Desenvolvi uma página web estilizada utilizando HTML, CSS e JavaScript para um pet shop fictício chamado "Melhor Amigo".
 
 ## :wrench: Tecnologias utilizadas:
 [![Skills](https://skillicons.dev/icons?i=vscode,html,css,javascript&theme=light)](https://skillicons.dev)

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/Página principal/melhor.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/Página principal/melhor.png" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a class="tablinks" onclick="openTab(event, 'tab1')" href=""><img id="logotipo" src="imagens/Página principal/melhor.png" alt="logotipo do Melhor amigo"></a>
+            </div>
+            <div id="div1_header">
+                <ul id="ul_header">
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab2')" href="">Produtos</a></li>
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab3')" href="">Galeria de fotos</a></li>
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab4')" href="">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tab4" class="tabcontent" style="display:none;">
+            <form>
+              <h2 id="h2_form">Informações para contato</h2>
+              <div class="div_form">
+                <label for="nome">Nome</label>
+                <input type="text">
+              </div>
+              <div class="div_form">
+                <label for="email">Email</label>
+                <input type="email">
+              </div>
+              <div class="div_form">
+                <label for="telefone">Telefone</label>
+                <input type="number">
+              </div>
+              <button class="button_form">ENVIAR</button>
+            </form>
+
+            <section id="section_contato">
+              <div>
+                <h2 class="h2_sections">Nosso contato:</h2>
+                <div class="span_contato">
+                  <span>Endereço: Avenida Luis Carlos</span>
+                  <span>Telefone: (71) 9 0000-0001</span>
+                  <span>Email: melhoramigo@gmail.com</span>
+                </div>
+              </div>
+
+              <div>
+                <h2 class="h2_sections">Quer receber atualizações e ofertas por email?</h2>
+                <div class="div_contato">
+                  <span class="itens_div_contato">Assine o Newsletter</span>
+                  <button class="button_form">Newsletter</button>
+                </div>
+              </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <ul id="ul_footer">
+            <li class="li_footer">Trabalhe conosco</li>
+            <li class="li_footer">Termos e condições</li>
+            <li class="li_footer">Como cuidamos da sua privacidade</li>
+            <li class="li_footer">Acessibilidade</li>
+            <li class="li_footer">Contato</li>
+            <li class="li_footer">Informaçoes sobre seguro</li>
+        </ul>
+        <span id="span_footer">
+            &copy;2024 Miguel da Silva Xavier
+        </span>
+    </footer>
+
+    <script src="min.js"></script>
+</body>
+</html>

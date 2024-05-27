@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/Página principal/melhor.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/Página principal/melhor.png" type="image/x-icon">
+    <title>Galeria de Fotos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a class="tablinks" onclick="openTab(event, 'tab1')" href=""><img id="logotipo" src="imagens/Página principal/melhor.png" alt="logotipo do Melhor amigo"></a>
+            </div>
+            <div id="div1_header">
+                <ul id="ul_header">
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab2')" href="">Produtos</a></li>
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab3')" href="">Galeria de fotos</a></li>
+                    <li class="li_header"><a class="a_header tablinks" onclick="openTab(event, 'tab4')" href="">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="tab3" class="tabcontent" style="display:none;">
+            <div class="div_galeria">
+              <h2 class="h2_sections">Bem vindo a nossa Galeria de fotos</h2>
+              <p class="p_article_section1">
+                Nossa galeria de fotos é o reflexo do nosso amor e cuidado pelos animais.
+                Você poderá ver alguns dos adoráveis clientes que já passaram pelo nosso 
+                petshop. É um verdadeiro prazer atender a cada um deles e contribuir para o 
+                seu bem-estar e felicidade.
+              </p>
+            </div>
+
+            <div class="gallery">
+              <div class="row">
+                <div class="column">
+                  <img src="imagens/Galeria de fotos/img1.jpg" alt="Foto 1" onclick="openModal('imagens/Galeria de fotos/img1.jpg', 'O seu Pet faz parte da Familia', 'No pet shop Melhor Amigo, entendemos que seu animal de estimação é um membro valioso da família. Com carinho e cuidado, oferecemos serviços dedicados para garantir o bem-estar e a felicidade do seu pet. Confie em nós para tratar seu amigo com o amor que ele merece.')">
+                </div>
+                <div class="column">
+                  <img src="imagens/Galeria de fotos/img2.jpeg" alt="Foto 2" onclick="openModal('imagens/Galeria de fotos/img2.jpeg', 'Nosso espaço de lazer', 'No pet shop Melhor Amigo, contamos com um mini espaço de lazer especialmente projetado para seu animal de estimação. Aqui, seu pet pode se divertir e socializar em um ambiente seguro e acolhedor. Venha conhecer e proporcionar momentos de alegria para o seu melhor amigo!')">
+                </div>
+                <div class="column">
+                  <img src="imagens/Galeria de fotos/img3.jpg" alt="Foto 3" onclick="openModal('imagens/Galeria de fotos/img3.jpg', 'Nossos limentos', 'No pet shop Melhor Amigo, oferecemos uma seleção de alimentos de alta qualidade para seu animal de estimação. Temos opções nutritivas e balanceadas para garantir a saúde e o bem-estar do seu pet. Confie em nós para fornecer o melhor em alimentação para seu melhor amigo.')">
+                </div>
+                <div class="column">
+                  <img src="imagens/Galeria de fotos/img4.jpg" alt="Foto 4" onclick="openModal('imagens/Galeria de fotos/img4.jpg', 'Seção de brinquedos', 'No pet shop Melhor Amigo, nossa seção de brinquedos oferece uma variedade de opções divertidas e seguras para seu animal de estimação. Desde mordedores até brinquedos interativos, temos tudo para manter seu pet entretido e feliz. Venha conferir e escolha o presente perfeito para o seu melhor amigo!')">
+                </div>
+              </div>
+            </div>
+          
+            <div id="myModal" class="modal">
+              <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="modalImg">
+                <div id="caption"></div>
+              </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer id="footer">
+        <ul id="ul_footer">
+            <li class="li_footer">Trabalhe conosco</li>
+            <li class="li_footer">Termos e condições</li>
+            <li class="li_footer">Como cuidamos da sua privacidade</li>
+            <li class="li_footer">Acessibilidade</li>
+            <li class="li_footer">Contato</li>
+            <li class="li_footer">Informaçoes sobre seguro</li>
+        </ul>
+        <span id="span_footer">
+            &copy;2024 Miguel da Silva Xavier
+        </span>
+      </footer>
+
+    <script src="min.js"></script>
+</body>
+</html>

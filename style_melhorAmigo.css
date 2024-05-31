@@ -1,0 +1,72 @@
+#banner {
+    width: 100vw;
+}
+
+#h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #50c600;
+    font-size: 3rem;
+    overflow-x: hidden;
+}
+
+.p_article_section1 {
+    padding: 0rem 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.h2_sections {
+    padding-left: 4rem;
+    color: #50c600;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.butão_ofertas {
+    color: white;
+    background-color: #50c600;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#div_botão_produtos {
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+}
+
+#botão_produtos {
+    color: white;
+    background-color: #50c600;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}

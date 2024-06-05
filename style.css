@@ -27,6 +27,13 @@ nav {
     padding: 10px 2rem;
 }
 
+.nome {
+    text-decoration: none;
+    color: #50c600;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 #ul_header {
     padding: 0;
     margin: 0;
@@ -43,13 +50,6 @@ nav {
     color: #50c600;
 }
 
-.a_header1 {
-    text-decoration: none;
-    color: #50c600;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-
 #banner {
     width: 100vw;
 }
@@ -63,13 +63,13 @@ nav {
     overflow-x: hidden;
 }
 
-.p_article_section1 {
+.text_boasVindas {
     padding: 0rem 3rem;
     padding-bottom: 2rem;
     text-align: center;
 }
 
-.h2_sections {
+.categorias_produtos {
     padding-left: 4rem;
     color: #50c600;
 }
@@ -104,7 +104,7 @@ nav {
     border-top-right-radius: 5px;
 }
 
-.butão_ofertas {
+.botão_ação {
     color: white;
     background-color: #50c600;
     padding: 5px;
@@ -156,7 +156,7 @@ nav {
     justify-content: center;
 }
 
-#span_footer {
+#copyright {
     display: flex;
     justify-content: center;
     color: white;

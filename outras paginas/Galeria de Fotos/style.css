@@ -43,26 +43,26 @@ nav {
     color: #50c600;
 }
 
-.a_header1 {
+.nome {
     text-decoration: none;
     color: #50c600;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
-.div_galeria {
+.boas_vindas_galeria {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
 }
 
-.h2_sections {
+.titulo {
     padding-left: 4rem;
     color: #50c600;
 }
 
-.p_article_section1 {
+.text_galeria {
     padding: 0rem 3rem;
     padding-bottom: 2rem;
     text-align: center;
@@ -161,6 +161,9 @@ nav {
     flex-direction: column;
     gap: 1rem;
     background-color: #50c600;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 #ul_footer {
@@ -181,7 +184,7 @@ nav {
     justify-content: center;
 }
 
-#span_footer {
+#copyright {
     display: flex;
     justify-content: center;
     color: white;

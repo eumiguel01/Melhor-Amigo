@@ -27,6 +27,13 @@ nav {
     padding: 10px 2rem;
 }
 
+.nome {
+    text-decoration: none;
+    color: #50c600;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 #ul_header {
     padding: 0;
     margin: 0;
@@ -43,69 +50,97 @@ nav {
     color: #50c600;
 }
 
-.nome {
-    text-decoration: none;
-    color: #50c600;
-    font-size: 2.5rem;
-    font-weight: bold;
+main {
+    padding: 2rem;
 }
 
-form {
-    margin: 5rem 30rem;
-    padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    border: #50c600 solid 4px;
-    border-radius: 20px;
-}
-
-#titulo_form{
-    color: #50c600;
-}
-
-.inputs_form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding: 1rem;
-    color: #50c600;
-}
-
-.button_form {
-    border: 0;
-    color: white;
-    background-color: #50c600;
-    padding: 7px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-#section_contato {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.h2_enformações {
-    padding-left: 4rem;
-    color: #50c600;
-}
-
-.span_contato {
-    margin: 0rem 10rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.div_contato {
+.contato {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
+    height: 70vh;
+    gap: 1rem;
 }
 
-.itens_div_contato {
-    margin: 0rem 1rem;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 60vh;
+    width: 30vw;
+    padding: 1rem;
+    border: solid 8px #50c600;
+    border-radius: 10px;
+}
+
+form h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #50c600;
+}
+
+.informacoes_usuarios {
+    max-width: 190px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #50c600;
+    border-radius: 5px;
+}
+
+.informacoes_usuarios:focus {
+    color: #50c600;
+    outline-color: #50c600;
+    box-shadow: -3px -3px 15px #50c600;
+    transition: .1s;
+    transition-property: box-shadow;
+}
+
+.span_informacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.span_sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.p_sexo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    color: #50c600;
+}
+
+.span_butoes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.span_butoes button {
+    padding: 7px;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    background-color: #50c600;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.h2_informacoespet {
+    font-size: 2rem;
+    color: #50c600;
+
+}
+
+.p_informacoespet {
+    font-size: 1rem;
+    color: #50c600;
 }
 
 #footer {
@@ -115,6 +150,9 @@ form {
     flex-direction: column;
     gap: 1rem;
     background-color: #50c600;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
 
 #ul_footer {

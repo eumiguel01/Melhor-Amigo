@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="icon" href="../../imagens/Página principal/melhor.png" type="image/x-icon">
-    <title>Contato</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../../imagens/Página principal/melhor.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Contato</title>
 </head>
 <body>
   <header>
@@ -15,57 +15,57 @@
       </div>
       <div>
         <ul id="ul_header">
-          <li class="li_header"><a class="a_header" href="../../outras paginas/Produtos/Produtos.html">Produtos</a></li>
-          <li class="li_header"><a class="a_header" href="../../outras paginas/Galeria de Fotos/Galeria de Fotos.html">Galeria de fotos</a></li>
-          <li class="li_header"><a class="a_header" href="../../outras paginas/Contato/Contato.html">Contato</a></li>
+          <li class="li_header"><a class="a_header" href="../Produtos/Produtos.html">Produtos</a></li>
+          <li class="li_header"><a class="a_header" href="../Galeria de Fotos/Galeria de Fotos.html">Galeria de fotos</a></li>
+          <li class="li_header"><a class="a_header" href="../Contato/Contato.html">Contato</a></li>
         </ul>
       </div>
     </nav>
   </header>
 
   <main>
-    <section>
-      <form>
-        <h2 id="titulo_form">Informações para contato</h2>
+    <section class="contato">
+      <div>
+        <form action="">
+          <h1>Entrar em contato</h1>
+          <span class="span_informacoes">
+            <label for="nome">Nome:</label>
+            <input class="informacoes_usuarios" type="text" id="nome" name="nome" required>
+          </span>
+          <span class="span_informacoes">
+            <label for="email">Email:</label>
+            <input class="informacoes_usuarios" type="email" id="email" name="email" required>
+          </span>
+          <span class="span_informacoes">
+            <label for="telefone">Telefone:</label>
+            <input class="informacoes_usuarios" type="tel" id="telefone" name="telefone" required>
+          </span>
+          <span class="span_informacoes">
+            <label for="sexo">Sexo:</label>
+            <span class="span_sexo">
+              <p class="p_sexo">Masculino: <input type="radio" name="sexo" id="sexo"></p>
+              <p class="p_sexo">Feminino: <input type="radio" name="sexo" id="sexo"></p>
+              <p class="p_sexo">Outro: <input type="radio" name="sexo" id="sexo"></p>
+            </span>
+          </span>
+          <span class="span_butoes">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </span>
+        </form>
+      </div>
 
-        <div class="inputs_form">
-          <label for="nome">Nome</label>
-          <input type="text">
-        </div>
-
-        <div class="inputs_form">
-          <label for="email">Email</label>
-          <input type="email">
-        </div>
-
-        <div class="inputs_form">
-          <label for="telefone">Telefone</label>
-          <input type="number">
-        </div>
-
-        <button class="button_form">ENVIAR</button>
-      </form>
-
-      <section id="section_contato">
-        <div>
-          <h2 class="h2_enformações">Nosso contato:</h2>
-
-          <div class="span_contato">
-            <span>Endereço: Avenida Luis Carlos</span>
-            <span>Telefone: (71) 9 0000-0001</span>
-            <span>Email: melhoramigo@gmail.com</span>
-          </div>
-        </div>
-
-        <div>
-          <h2 class="h2_enformações">Quer receber atualizações e ofertas por email?</h2>
-
-          <div class="div_contato">
-            <span class="itens_div_contato">Assine o Newsletter</span>
-            <button class="button_form">Newsletter</button>
-          </div>
-        </div>
-      </section>
+      <div>
+        <span>
+          <h2 class="h2_informacoespet">Informações para contato:</h2>
+          <p class="p_informacoespet">Telefone: (71) 9 1234-5678</p>
+          <p class="p_informacoespet">Email: melhoramigo@gmail.com</p>
+        </span>
+        <span>
+          <h2 class="h2_informacoespet">Endereço:</h2>
+          <p class="p_informacoespet">Rua do Petshop, número 01, Salvador - BA</p>
+        </span>
+      </div>
     </section>
   </main>
 

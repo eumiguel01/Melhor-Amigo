@@ -14,4 +14,3 @@ Incompleto!
 2. A paleta de cores do site não reflete a identidade visual da marca, que é caracterizada por cores diferentes do branco e verde predominantes no site.
 3. Os visitantes não têm a opção de solicitar mais informações sobre os produtos no website, o que limita a interação e o potencial de conversão.
 4. A seção de contato apresenta uma simplicidade excessiva e carece de estilos atrativos.
-5. As classes e os ids estão com nomeclatura ruins.
